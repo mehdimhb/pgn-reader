@@ -17,7 +17,7 @@ This is a Java-based PGN (Portable Game Notation) chess game reader with a graph
 2. Compile and run the Java program::
 
     ```bash
-    cd pgn-reader-java-swing
+    cd pgn-reader
     javac Main.java
     java Main
 
