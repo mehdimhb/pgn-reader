@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-public class Chess extends JFrame implements ActionListener {
+public class Main extends JFrame implements ActionListener {
     private final GridBagLayout layout ;
     private final GridBagConstraints constraints ;
     JPanel infoPanel;
@@ -32,7 +32,7 @@ public class Chess extends JFrame implements ActionListener {
     private int indexOfGame, indexOfMove;
 
 
-    public Chess(){
+    public Main(){
         super("PGN Reader");
 
         layout = new GridBagLayout();
@@ -818,6 +818,6 @@ public class Chess extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Chess::new);
+        SwingUtilities.invokeLater(Main::new);
     }
 }
